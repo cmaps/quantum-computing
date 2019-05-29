@@ -95,7 +95,7 @@ print(exp)
 
 # split and replace
 
-n = len(exp.split(" + ")) #length(unlist(strsplit(exp, " [\\s+] ")))
+n = len(exp.split(" + ")) 
 exp = exp.split(" + ")
 print(exp)
 expn = ''
